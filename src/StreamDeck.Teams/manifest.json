@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/actionIcon",
+      "Name": "StreamDeck.TeamsAction",
+      "States": [
+        {
+          "Image": "images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "The first action for the StreamDeck.Teams Stream Deck plugin",
+      "UUID": "com.monsterconsultancy.teams.ToggleVideoAction"
+    }
+  ],
+  "Category": "Teams Control",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Monster Consultancy",
+  "CodePathWin": "StreamDeck.Teams.exe",
+  "CodePathMac": "StreamDeck.Teams",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Description of StreamDeck.Teams.",
+  "Name": "StreamDeck.Teams",
+  "Icon": "images/pluginIcon",
+  "URL": "https://github.com/monsterconsultancy/streamdeck.teams",
+  "Version": "1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
